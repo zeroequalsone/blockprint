@@ -48,7 +48,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="de" className={`${minecraftFont.variable} h-full antialiased`}>
       <body className="min-h-full bg-[#0d0f12] flex flex-col md:p-8 p-4">
         <Navbar />
-        <main>{children}</main>
+        <main className="mt-36">{children}</main>
       </body>
     </html>
   );
