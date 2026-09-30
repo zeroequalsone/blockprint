@@ -1,5 +1,6 @@
 import FeaturedBuilds from "@/components/sections/FeaturedBuilds";
 import Features from "@/components/sections/Features";
+import FinalCTA from "@/components/sections/FinalCTA";
 import Hero from "@/components/sections/Hero";
 import Stats from "@/components/sections/Stats";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Stats />
       <FeaturedBuilds />
       <Features />
+      <FinalCTA />
     </div>
   );
 }
